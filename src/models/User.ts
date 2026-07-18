@@ -6,3 +6,9 @@ export type UserPrivate = {
   created_at: string;
   updated_at: string;
 };
+
+export type CurrentUser = {
+  id: string;
+  username: string;
+  avatar_url: string | null;
+};
