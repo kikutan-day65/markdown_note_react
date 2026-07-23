@@ -21,7 +21,10 @@
     "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
     "react-router": "^8.0.1",
-    "react-toastify": "^11.1.0"
+    "react-toastify": "^11.1.0",
+    "rehype-starry-night": "^2.2.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
