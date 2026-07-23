@@ -10,3 +10,14 @@ export type ArticleSummaryWithUser = {
   tags: TagSummary[];
   likes_count: number;
 };
+
+export type ArticlePublic = {
+  id: string;
+  title: string;
+  content: string;
+  created_at: string;
+  updated_at: string;
+  user: UserSummary;
+  tags: TagSummary[];
+  likes_count: number;
+};
